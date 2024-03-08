@@ -1,0 +1,14 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: psychic-job-templates
+  description: 34d8b0ff-2efa-4a3c-ac44-efb0444a90f8
+  annotations:
+    backstage.io/kubernetes-id: psychic-job-templates
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: swapdisk/psychic-job-templates
+spec:
+  type: api
+  lifecycle: production
+  owner: swapdisk
