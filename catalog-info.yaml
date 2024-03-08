@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: psychic-job-templates
-  description: Bob test try 2
+  description: Now with owner of janus-orchestrator? 
   annotations:
     backstage.io/kubernetes-id: psychic-job-templates
     backstage.io/techdocs-ref: dir:.
@@ -11,4 +11,4 @@ metadata:
 spec:
   type: api
   lifecycle: production
-  owner: Guest User
+  owner: janus-orchestrator

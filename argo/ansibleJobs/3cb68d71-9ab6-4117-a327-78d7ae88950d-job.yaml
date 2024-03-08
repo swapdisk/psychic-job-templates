@@ -1,0 +1,10 @@
+---
+apiVersion: tower.ansible.com/v1alpha1
+kind: AnsibleJob
+metadata:
+  name: 3cb68d71-9ab6-4117-a327-78d7ae88950d-job
+  namespace: aap
+spec:
+  connection_secret: aapaccess
+  job_template_name: Bob test
+  extra_vars: 
